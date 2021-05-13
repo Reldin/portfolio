@@ -1,0 +1,17 @@
+
+ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+    font-size: 1rem;
+    padding: 0.5rem;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
