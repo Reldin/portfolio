@@ -4,17 +4,8 @@ import './frontpage.style.scss';
 
 import Project from '../components/projects/Project.component';
 
-class FrontPage extends React.Component {
-    constructor() {
-        super();
-        
-        this.state = {
-            
-        }
-    }
+const FrontPage = (props) => {
 
-
-    render() {
         return (
             <div className="front-page">
                 <div className="front-text">
@@ -34,7 +25,6 @@ class FrontPage extends React.Component {
                 <Project />
             </div>
         )
-    }
 }
 
 export default FrontPage;
