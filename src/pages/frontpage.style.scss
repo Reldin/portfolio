@@ -1,26 +1,8 @@
 .front-page {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 1rem;
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1rem;
 }
-
-.front-text {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-size: calc(10px + 2vmin);
-    margin: 0 0 1rem 0;
-    width: 50rem;
-    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.26);
-    background-image: linear-gradient( 178.6deg,  rgb(34, 44, 53) 11.8%, rgb(145, 161, 175) 83.8% );
-
-    & .paragraph {
-        max-width: 25rem;
-        font-size: 1rem;
-    }
-}
-
 
 

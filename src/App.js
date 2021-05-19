@@ -1,12 +1,12 @@
-import './App.css';
+import "./App.css";
 
-import Header from './components/layout/Header';
-import FrontPage from './pages/FrontPage';
+import Header from "./components/layout/Header";
+import FrontPage from "./pages/FrontPage";
 
 function App() {
   return (
     <div className="App">
-      <Header title={'Header'}  />
+      <Header firstLink={"Home"} secondLink={"About"} />
       <FrontPage />
       <footer>Footer</footer>
     </div>

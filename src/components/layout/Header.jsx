@@ -1,13 +1,13 @@
-import React from 'react';
+import React from "react";
 
-import Nav from './Nav';
+import Nav from "./Nav";
 
-import './header.styles.scss';
+import "./header.styles.scss";
 
-const Header = () => (
-    <header className="header">
-        <Nav />
-    </header>
-)
+const Header = (props) => (
+  <header className="header">
+    <Nav firstLink={props.firstLink} secondLink={props.secondLink} />
+  </header>
+);
 
 export default Header;

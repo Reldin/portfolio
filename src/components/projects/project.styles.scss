@@ -1,28 +1,9 @@
 .project-images {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    width: 100%;
-    margin: 2rem 0 2rem 0;
-    background-image: linear-gradient(white, black);
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 0 2rem 0;
+  width: 60rem;
+  background-image: linear-gradient(rgb(197, 188, 188), rgb(201, 194, 207));
 
-    
 
-    & :nth-child(1) {
-        display: flex;
-
-    }
-
-    & :nth-child(2) {
-        display: flex;
-
-    }
-
-    & :nth-child(3) {
-        display: flex;
-
-    }
 }
-
-
-

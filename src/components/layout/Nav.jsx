@@ -1,14 +1,18 @@
-import React from 'react';
+import React from "react";
 
-import './nav.styles.scss';
+import "./nav.styles.scss";
 
-const Nav = () => (
-    <nav className="nav">
-        <ul className="nav-links">
-            <li className="nav-link"><a href="/#">Home</a></li>
-            <li className="nav-link"><a href="/#">About</a></li>
-        </ul>
-    </nav>
-)
+const Nav = (props) => (
+  <nav className="nav">
+    <ul className="nav-links">
+      <li className="nav-link">
+        <a href="/#">{props.firstLink}</a>
+      </li>
+      <li className="nav-link">
+        <a href="/#">{props.secondLink}</a>
+      </li>
+    </ul>
+  </nav>
+);
 
 export default Nav;

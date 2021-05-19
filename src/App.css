@@ -16,7 +16,6 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  
 }
 
 .App {
@@ -31,5 +30,4 @@ footer {
   background-color: black;
   padding: 3em;
   margin-top: auto;
-
 }
