@@ -6,7 +6,7 @@ const ProjectList = (props) => {
   return (
     <ul className="project-list">
       {props.projects.map((project) => (
-        <li>
+        <li key={project.id}>
           <figure>
             <img
               src={project.src}

@@ -4,9 +4,9 @@ import Nav from "./Nav";
 
 import "./header.styles.scss";
 
-const Header = (props) => (
+const Header = () => (
   <header className="header">
-    <Nav firstLink={props.firstLink} secondLink={props.secondLink} />
+    <Nav />
   </header>
 );
 
