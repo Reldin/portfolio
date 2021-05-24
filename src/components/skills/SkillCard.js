@@ -1,10 +1,9 @@
-import Skills from "./Skills";
 import './SkillCard.styles.scss';
 
-const SkillCard = () => {
+const SkillCard = (props) => {
   return (
     <div className="skill-card">
-      <Skills />
+      {props.children}
     </div>
   )
 
