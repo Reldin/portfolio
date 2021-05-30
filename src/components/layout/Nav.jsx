@@ -1,4 +1,5 @@
 import React, { useContext } from "react";
+import { NavLink } from "react-router-dom";
 import Context from "../../store/context";
 
 import "./nav.styles.scss";
@@ -10,10 +11,10 @@ const Nav = () => {
   <nav className="nav">
     <ul className="nav-links">
       <li className="nav-link">
-        <a href="/#">{ctx.navLink1}</a>
+        <NavLink to="/front-page" activeClassName="active">{ctx.navLink1}</NavLink>
       </li>
       <li className="nav-link">
-        <a href="/#">{ctx.navLink2}</a>
+        <NavLink to='/mini-project' activeClassName="active">{ctx.navLink2}</NavLink>
       </li>
     </ul>
   </nav>
