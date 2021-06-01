@@ -19,6 +19,9 @@ const todoSlice = createSlice({
     moveToDone(state, action) {
       const todoId = action.payload;
       const todo = state.todo.find(todo => todo.id === todoId);
+      const filtered = state.todo.filter(todo => todo.id !== todoId);
+      console.log(filtered);
+      state.todo = filtered;
       state.done.push(todo);
     }
   },

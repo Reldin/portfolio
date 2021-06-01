@@ -4,14 +4,14 @@ import "./frontpage.style.scss";
 
 import Project from "../components/projects/Project";
 import ProfileElem from "../components/Profile/ProfileElem";
-import SkillCard from "../components/skills/SkillCard";
+import Skills from "../components/skills/Skills";
 
 const FrontPage = (props) => {
   return (
     <div className="front-page">
       <ProfileElem />
       <Project />
-      <SkillCard />
+      <Skills />
     </div>
   );
 };
