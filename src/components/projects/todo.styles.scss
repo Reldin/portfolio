@@ -1,3 +1,10 @@
+.todo {
+  width: 45rem;
+  border: 1px solid black;
+  margin: 0.5rem;
+  box-shadow: 4px 8px rgba(0, 0, 0, 0.25);
+}
+
 .todo-control {
   margin: 0.5rem;
 
@@ -19,8 +26,8 @@
   flex-direction: row;
   justify-content: center;
   background-color: white;
-  width: 45rem;
-  margin: auto;
+  width: 30rem;
+  margin: 1rem auto;
   box-shadow: 4px 8px rgba(0, 0, 0, 0.25);
 }
 
@@ -39,9 +46,9 @@
     color: white;
     border-radius: 12px;
     width: 7rem;
+    margin: 1rem;
 
     &:hover {
-      margin: 0 0.5rem;
       color: rgb(176, 167, 190);
     }
   }

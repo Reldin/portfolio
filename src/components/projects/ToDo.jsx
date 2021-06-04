@@ -4,6 +4,7 @@ import { useState } from "react";
 
 import "./todo.styles.scss";
 import TodoItem from "./TodoItem";
+import Button from "../ui/Button";
 
 const ToDo = () => {
   const [header, setHeader] = useState("");
@@ -48,7 +49,7 @@ const ToDo = () => {
   };
 
   return (
-    <div>
+    <div className={"todo"}>
       <h1>TODO</h1>
       <form onSubmit={submitTodo}>
         <div className="todo-control">
@@ -59,7 +60,7 @@ const ToDo = () => {
           <label htmlFor="content">Content</label>
           <textarea type="text" name="content" onChange={contentHandler} value={content} />
         </div>
-        <button>Add TODO</button>
+        <Button>Add TODO</Button>
       </form>
       <section className="main-ul">
         <div className="main-ul__control">

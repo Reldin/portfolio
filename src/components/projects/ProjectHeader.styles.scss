@@ -1,0 +1,15 @@
+.project-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 7vh;
+  width: 45rem;
+  background-color: #000000;
+  align-items: center;
+
+  & select {
+    border-radius: 12px;
+    background-color: rgb(107, 7, 7);
+    color: white;
+  }
+}
